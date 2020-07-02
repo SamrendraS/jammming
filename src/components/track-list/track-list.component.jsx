@@ -2,7 +2,7 @@ import React from 'react';
 
 import './track-list.styles.scss';
 
-import Track from '../Track/Track';
+import Track from '../track/track-component';
 
 class TrackList extends React.Component {
   render() {
@@ -17,7 +17,8 @@ class TrackList extends React.Component {
                     isRemoval={this.props.isRemoval}
                     onRemove={this.props.onRemove}
                 />
-            )})}
+            )})
+      }
       </div>
     );
   }

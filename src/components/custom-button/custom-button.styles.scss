@@ -1,11 +1,14 @@
 .custom-button {
   cursor: pointer;
   width: 8.11rem;
-  padding: .77rem 0;
+  padding: .77rem 0.4rem;
+  border-width: 0px;
+  margin-top: 1.27rem;
   border-radius: 54px;
-  background-color: #010c3f;
+  background-color: #6c41ec;
   text-align: center;
   font-size: .833rem;
+  font-family: 'Work Sans', sans-serif;
   transition: background-color .25s;
   border: 0px;
   color: #fff;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './track-styles.scss';
+import './track.styles.scss';
 
 class Track extends React.Component {
   addTrack = (event) => {
