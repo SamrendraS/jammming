@@ -3,7 +3,6 @@ import React from 'react';
 import './playlist.styles.scss';
 
 import TrackList from '../track-list/track-list.component';
-import CustomButton from '../custom-button/custom-button.component';
 
 class Playlist extends React.Component {
     handleNameChange = (event) => {
@@ -17,7 +16,7 @@ class Playlist extends React.Component {
             <TrackList tracks={this.props.playlistTracks}
                     isRemoval={true}
                     onRemove={this.props.onRemove} />
-            <CustomButton children='SAVE TO SPOTIFY' onClick={this.props.onSave}/>
+            <button className="Playlist-save" onClick={this.props.onSave}>SAVE TO SPOTIFY</button>
         </div>
         );
     }
